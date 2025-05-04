@@ -1,0 +1,52 @@
+/* Custom styles for Saradhi PG Dashboard */
+.nav-link {
+    transition: all 0.3s ease;
+}
+
+.section-content {
+    display: block;
+}
+
+.section-content.hidden {
+    display: none;
+}
+
+/* Chart container sizing */
+#bookingsChart, #revenueChart {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Form input focus styles */
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    --tw-ring-color: rgba(79, 70, 229, 0.5);
+    border-color: rgba(79, 70, 229, 0.8);
+}
+
+/* Button hover effects */
+button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Table row hover effect */
+tbody tr:hover {
+    background-color: rgba(249, 250, 251, 1);
+}
+
+/* Modal animations */
+.modal {
+    transition: opacity 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .chart-form-grid {
+        grid-template-columns: 1fr;
+    }
+}
