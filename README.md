@@ -21,4 +21,4 @@ A responsive dashboard for PG (Paying Guest) owners to view booking statistics a
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/pg-booking-dashboard.git
+   git clone https://github.com/your-username/saradhi_pg_dashboard.git
